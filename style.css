@@ -9,6 +9,7 @@
 	height: 100%;
 	position:fixed;
   padding-top: 20px;
+  padding-left: 5px;
   font-family: monospace;
 }
 
@@ -25,9 +26,13 @@ img{
   border-style: solid;
   border-color: black;
   border-width: 1px;
+height: 150px;
+width: 150px;
 }
 
 .main{
   width: 80%;
   float:right;
+  font-family: monospace;
+
 }
