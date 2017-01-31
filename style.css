@@ -82,12 +82,17 @@ div img{
   display: flex;                       /* establish flex container */
   flex-wrap: wrap;                     /* enable flex items to wrap */
   justify-content: center;
-  width: 500px;
+  width: 550px;
+  padding: 5px;
 
 }
 
 .portbox{
-    margin-bottom: 5px;
-    background-color: #999;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px black;
+    height: 290px;
+    width: 160px;
+
 
 }
