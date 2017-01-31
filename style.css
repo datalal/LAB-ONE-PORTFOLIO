@@ -15,20 +15,44 @@
 }
 
 .rightbox{
-  background-color: teal;
   width: 20px;
   height: 20px;
   position: fixed;
-    bottom: 8px;
-    right: 16px;
-
-
+    bottom: 10px;
+    right: 20px;
 }
+
+.rightbox2{
+  width: 20px;
+  height: 20px;
+  position: fixed;
+    bottom: 23px;
+    right: 32px;
+}
+
+.rightbox3{
+  width: 20px;
+  height: 20px;
+  position: fixed;
+    bottom: 35px;
+    right: 20px;
+}
+
+.rightbox4{
+  width: 20px;
+  height: 20px;
+  position: fixed;
+    bottom: 23px;
+    right: 7px;
+}
+
+
 
 a:hover,{
   background-color: pink;
 
 }
+
 
 a{
   color: black;
