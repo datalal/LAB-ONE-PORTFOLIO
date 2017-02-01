@@ -32,13 +32,14 @@ $(document).mousemove(function(e){
     var $height = ($(document).height())/255;
     var $pageX = parseInt(e.pageX / $width,10);
     var $pageY = parseInt(e.pageY / $height,10);
-    $(".bottombar").css("background-color", "rgb("+$pageX+","+$pageY+",150)");
+    $(".bottombar").css("background-color", "rgb("+$pageX+","+$pageY+",190)");
     $(".rightbox").css("background-color", "rgba("+$pageX+","+$pageY+","+$pageX+", 0.3)");
     $(".rightbox2").css("background-color", "rgba("+$pageX+","+$pageY+",90, 0.5)");
     $(".rightbox3").css("background-color", "rgba("+$pageX+","+$pageY+",40, 0.7)");
     $(".rightbox4").css("background-color", "rgba("+$pageX+","+$pageY+",10, 0.8)");
+    $("a:hover.navlink").css("background-color", "rgba("+$pageX+","+$pageY+",150, 0.5)");
 
-/*    if ($pageX < 60 || $pageY < 70) {
+/*   if ($pageX < 60 || $pageY < 70) {
   $(".navlink").css("color", "white");
   $(".navlink").css("background-color", "grey");
 
@@ -48,4 +49,15 @@ $(document).mousemove(function(e){
 
 }
 */
+
+if ($pageX < 60 || $pageY < 70) {
+
+  $("a:hover.navlink").css("background-color", "rgba("+$pageX+","+$pageY+",190, 0.5)");
+
+   } else
+     {  $(".navlink").css("color", "black");
+     $(".navlink").css("background-color", "transparent");
+
+}
+
 });
